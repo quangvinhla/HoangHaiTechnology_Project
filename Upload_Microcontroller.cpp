@@ -10,7 +10,6 @@ void setup() {
   }
   Serial.println("Arduino san sang nhan lenh.");
 }
-
 void loop() {
   if (Serial.available() > 0) {
     String command = Serial.readStringUntil('\n');
